@@ -17,6 +17,7 @@ class CreatePricesTable extends Migration
             $table->increments('id');
             $table->integer('product_id');
             $table->decimal('price', 8, 2);
+            $table->timestamps();
         });
     }
 
