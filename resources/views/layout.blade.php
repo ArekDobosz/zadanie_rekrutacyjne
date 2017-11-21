@@ -38,17 +38,6 @@
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     
-                    <!-- <form action="{{ url('/search') }}" class="navbar-form navbar-left" method="GET">
-
-                        <div class="input-group">
-                            <input type="text" name="q" class="form-control" @section('search') @endsection placeholder="Szukaj...">
-                            <span class="input-group-btn">
-                                <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-                            </span>
-                        </div>
-                        
-                    </form> -->
-                    
                     <ul class="nav navbar-nav">
                         &nbsp;
                     </ul>
@@ -60,6 +49,11 @@
 
         @yield('content')
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- Scripts -->
     <!-- <script src="{{ asset('js/app.js') }}"></script> -->

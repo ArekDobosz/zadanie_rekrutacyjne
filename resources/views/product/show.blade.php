@@ -52,7 +52,7 @@
 								{{ csrf_field() }}
 								{{ method_field('DELETE') }}
 
-								<button type="submit" onclick="return confirm('Czy napewno usunąć?')"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></button>
+								<button type="submit" id="rmv_btn" onclick="return confirm('Czy napewno usunąć?')"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></button>
 								
 							</form>
 						</td>
